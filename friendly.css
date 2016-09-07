@@ -16,6 +16,10 @@
 	li {
 		font-family: 'PT Serif', serif;
 	}
+	img {
+		height:50px;
+		float: left;
+	}
 }
 @media screen and (min-width:500px) {
 	* {
@@ -33,6 +37,7 @@
 	} 
 	.person {
 		margin-bottom:25px;
+		display: inline-block;
 	}
 	h5:hover {
 		-moz-transform: scale(1.1);
@@ -43,4 +48,12 @@
 	.social {
 		font-weight:bold;
 	}
+	img {
+		height:50px;
+		float:left;
+	}
+	ul {
+		float:right;
+	}
+
 }
